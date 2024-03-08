@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.navbar-fixed {
+    @apply fixed z-[9999] bg-white bg-opacity-80 backdrop-blur-sm dark:bg-dark dark:bg-opacity-50;
+    /* backdrop-filter: blur(4px); */
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+.burger {
+    @apply w-[30px] h-[2px] my-2 block bg-dark dark:bg-white;
+}
+
+.burger-active > span:nth-child(1) {
+    @apply rotate-45;
+}
+.burger-active > span:nth-child(2) {
+    @apply scale-0;
+}
+.burger-active > span:nth-child(3) {
+    @apply -rotate-45;
+}
+
+/* css toggle dark mode */
+#pindah:checked ~ label div.pindah-lingkar {
+    @apply translate-x-3;
+}
+.swiper-button-prev {
+    @apply max-w-0.5 !important;
+    color: #f59e0b !important;
+}
+.swiper-button-next {
+    @apply max-w-0.5 !important;
+    color: #f59e0b !important;
+}
