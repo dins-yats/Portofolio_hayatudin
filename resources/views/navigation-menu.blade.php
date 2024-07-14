@@ -101,6 +101,12 @@
                             <x-dropdown-link href="{{ route('profile.show') }}">
                                 {{ __('Profile') }}
                             </x-dropdown-link>
+                            <x-dropdown-link href="{{ route('profile.show') }}">
+                                {{ __('About Me') }}
+                            </x-dropdown-link>
+                            <x-dropdown-link href="{{ route('profile.show') }}">
+                                {{ __('Portofolio') }}
+                            </x-dropdown-link>
 
                             @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
                                 <x-dropdown-link href="{{ route('api-tokens.index') }}">
@@ -164,7 +170,14 @@
                 <x-responsive-nav-link href="{{ route('profile.show') }}" :active="request()->routeIs('profile.show')">
                     {{ __('Profile') }}
                 </x-responsive-nav-link>
-
+                 <!-- About me -->
+                 <x-responsive-nav-link href="{{ route('profile.show') }}" :active="request()->routeIs('profile.show')">
+                    {{ __('About me') }}
+                </x-responsive-nav-link>
+                 <!-- portofolio -->
+                 <x-responsive-nav-link href="{{ route('profile.show') }}" :active="request()->routeIs('profile.show')">
+                    {{ __('Portofolio') }}
+                </x-responsive-nav-link>
                 @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
                     <x-responsive-nav-link href="{{ route('api-tokens.index') }}" :active="request()->routeIs('api-tokens.index')">
                         {{ __('API Tokens') }}

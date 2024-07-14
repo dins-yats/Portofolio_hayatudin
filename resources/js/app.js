@@ -121,3 +121,7 @@ const swiper = new Swiper(".swiper", {
         },
     },
 });
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();

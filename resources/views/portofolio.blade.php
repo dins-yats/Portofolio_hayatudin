@@ -83,13 +83,13 @@
               <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl dark:text-white">HAYATUDIN</span></h1>
              {{-- <h2 class="font-medium text-slate-700 dark:text-white text-lg mb-5 lg:text-3xl mt-2">Web Developer </h2> --}}
              <h2 class="font-semibold text-slate-700 dark:text-white text-xl mb-5 lg:text-3xl mt-2"> <span class="gado"></span></h2>
-             <p class="font-medium text-slate-400 mb-10 leading-relaxed">I'm Just Human Who Live In This Universe</p>
+             <p class="font-medium text-slate-400 mb-10 leading-relaxed">I'm Just a Human Who Lives In This Universe</p>
             <a href="" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-3xl hover:shadow hover:opacity-70 transition duration-300 ease-in-out">Hubungi Saya</a>
         </div>
         {{-- kanan --}}
         <div class="w-full self-end px-4  lg:bg-transparent lg:w-1/2 rounded-2xl">
-            <div class="relative mt-10 lg:mt-0 lg:right-0 ">
-                <img src="img/ayat.png" alt="ayat" class="max-w-full mx-auto">
+            <div class="relative mt-10 lg:mt-0 lg:right-0" data-aos="fade-up">
+                <img src="img/ayat.png" alt="ayat" class="max-w-full mx-auto" >
                 <span class="absolute w-full -bottom-0 -z-10 left-1/2 -translate-x-1/2">
                     <img src="img/blov.svg" alt="">
                 </span>
@@ -111,12 +111,12 @@
 
 {{-- mulai about --}}
 <section id="gluttony" class="pt-36 pb-32 dark:bg-dark ">
-    <div class="container">
+    <div class="container" >
         <div class="flex flex-wrap">
             <div class="w-full px-4 mb-10 lg:w-1/2">
-                <h4 class="text-primary text-uppercase font-bold text-lg mb-2">About Me</h4>
-                <h2 class="font-bold text-slate-800 text-2xl mb-3 max-w-xl lg:text-4xl dark:text-white">Mengenal Saya</h2>
-                <p class="font-medium text-base text-para max-w-xl lg:text-lg dark:text-zinc-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, 
+                <h4 class="text-primary text-uppercase font-bold text-lg mb-2"  data-aos="zoom-in" data-aos-duration="500">About Me</h4>
+                <h2 class="font-bold text-slate-800 text-2xl mb-3 max-w-xl lg:text-4xl dark:text-white"  data-aos="zoom-in" data-aos-duration="1000">Mengenal Saya</h2>
+                <p class="font-medium text-base text-para max-w-xl lg:text-lg dark:text-zinc-400"  data-aos="zoom-in-right" duration="2000">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, 
                     natus iste optio, eum quae enim dicta repudiandae, nisi deleniti esse ratione aut? 
                     Commodi ut facilis aperiam laboriosam natus ad modi quo voluptates, quaerat aliquid, 
                     dignissimos alias aliquam veniam ratione. Debitis voluptatibus
@@ -128,8 +128,8 @@
                     illum dicta debitis quod minus fugit dolorum ipsa voluptatum.</p>
             </div>
             <div class="w-full px-4 mb-10 lg:w-1/2">
-                <h4 class="font-semibold text-dark text-2xl mb-3 lg:text-3xl pt-10 dark:text-white">Keep In Touch</h4>
-                <p class="font-medium text-base text-para mb-6 lg:text-lg dark:text-zinc-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, 
+                <h4 class="font-semibold text-dark text-2xl mb-3 lg:text-3xl pt-10 dark:text-white"  data-aos="zoom-in" data-aos-duration="1000">Keep In Touch</h4>
+                <p class="font-medium text-base text-para mb-6 lg:text-lg dark:text-zinc-400" data-aos="zoom-in-right" duration="2000" delay="1000">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, 
                     natus iste optio, eum quae enim dicta repudiandae, nisi deleniti esse ratione aut? 
                     Commodi ut facilis aperiam laboriosam natus ad modi quo voluptates, quaerat aliquid, 
                     dignissimos alias aliquam veniam ratione. Debitis voluptatibus
@@ -175,7 +175,7 @@
 
 {{-- awal project --}}
 <section id="envy" class="pt-36 pb-16 bg-slate-100 dark:bg-slate-700 font-mayter">
-    <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-duration="2000">
         <div class="w-full px-4">
             <div class="max-w-xl mx-auto mb-16 text-center">
                 <h4 class="text-lg text-primary font-bold mb-2">Project</h4>
@@ -294,7 +294,7 @@
         </div> --}}
 
         <div class="flex flex-wrap">
-            <div class="w-full px-4 lg:w-1/2 xl:w-1/4">
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/4" data-aos="zoom-in-right">
               <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-800 dark:shadow-slate-600 dark:hover:bg-primary hover:bg-primary dark:hover:text-dark hover:text-white group group-hover:scale-95 transition-all duration-500">
                
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-21 h-20 mt-5 mx-auto group-hover:scale-110 transition-all duration-400 dark:text-white dark:group-hover:text-dark"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM4 5V19H20V5H4ZM20 12L16.4645 15.5355L15.0503 14.1213L17.1716 12L15.0503 9.87868L16.4645 8.46447L20 12ZM6.82843 12L8.94975 14.1213L7.53553 15.5355L4 12L7.53553 8.46447L8.94975 9.87868L6.82843 12ZM11.2443 17H9.11597L12.7557 7H14.884L11.2443 17Z"></path></svg>
@@ -319,7 +319,7 @@
                 </div>
               </div>
             </div>
-            <div class="w-full px-4 lg:w-1/2 xl:w-1/4">
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/4" data-aos="zoom-in-right" data-aos-delay="250">
               <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-800 dark:shadow-slate-600 dark:hover:bg-primary hover:bg-primary dark:hover:text-dark hover:text-white group group-hover:scale-95 transition-all duration-500">
                
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-21 h-20 mt-5 mx-auto group-hover:scale-110 transition-all duration-400 dark:text-white dark:group-hover:text-dark">><path d="M4 5V16H20V5H4ZM2 4.00748C2 3.45107 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44892 22 4.00748V18H2V4.00748ZM1 19H23V21H1V19Z"></path></svg>
@@ -337,7 +337,7 @@
               </div>
             </div>
           
-            <div class="w-full px-4 lg:w-1/2 xl:w-1/4">
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/4" data-aos="zoom-in-left" data-aos-delay="500">
               <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-800 dark:shadow-slate-600 dark:hover:bg-primary hover:bg-primary dark:hover:text-dark hover:text-white group group-hover:scale-95 transition-all duration-500">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-21 h-20 mt-5 mx-auto group-hover:scale-110 transition-all duration-400 dark:text-white dark:group-hover:text-dark"><path d="M16.9337 8.96494C16.426 5.03562 13.0675 2 9 2 4.58172 2 1 5.58172 1 10 1 11.8924 1.65707 13.6313 2.7555 15.0011 3.56351 16.0087 4.00033 17.1252 4.00025 18.3061L4 22H13L13.001 19H15C16.1046 19 17 18.1046 17 17V14.071L18.9593 13.2317C19.3025 13.0847 19.3324 12.7367 19.1842 12.5037L16.9337 8.96494ZM3 10C3 6.68629 5.68629 4 9 4 12.0243 4 14.5665 6.25141 14.9501 9.22118L15.0072 9.66262 16.5497 12.0881 15 12.7519V17H11.0017L11.0007 20H6.00013L6.00025 18.3063C6.00036 16.6672 5.40965 15.114 4.31578 13.7499 3.46818 12.6929 3 11.3849 3 10ZM21.1535 18.1024 19.4893 16.9929C20.4436 15.5642 21 13.8471 21 12.0001 21 10.153 20.4436 8.4359 19.4893 7.00722L21.1535 5.89771C22.32 7.64386 23 9.74254 23 12.0001 23 14.2576 22.32 16.3562 21.1535 18.1024Z"></path></svg>
                 <div class="py-8 px-6">
@@ -355,7 +355,7 @@
                 </div>
               </div>
             </div>
-            <div class="w-full px-4 lg:w-1/2 xl:w-1/4">
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/4" data-aos="zoom-in-left" data-aos-delay="750">
               <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-800 dark:shadow-slate-600 dark:hover:bg-primary hover:bg-primary dark:hover:text-dark hover:text-white group group-hover:scale-95 transition-all duration-500">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-21 h-20 mt-5 mx-auto group-hover:scale-110 transition-all duration-400 dark:text-white dark:group-hover:text-dark" width="100" viewBox="0 0 24 24"><path d="m21.29 4.1-4.12-2a1.36 1.36 0 0 0-.48-.1h-.08a1.18 1.18 0 0 0-.72.24l-.14.12-7.88 7.19L4.44 7a.83.83 0 0 0-.54-.17.88.88 0 0 0-.53.17l-1.1 1a.8.8 0 0 0-.27.61.84.84 0 0 0 .27.62l3 2.71-3 2.72a.84.84 0 0 0 0 1.23l1.1 1a.89.89 0 0 0 .6.22.93.93 0 0 0 .47-.17l3.43-2.61 7.88 7.19a1.2 1.2 0 0 0 .76.36h.17a1 1 0 0 0 .49-.12l4.12-2a1.25 1.25 0 0 0 .71-1.1V5.23a1.26 1.26 0 0 0-.71-1.13zM17 16.47l-6-4.53 6-4.53z"></path></svg>
                 <div class="py-8 px-6">
@@ -368,7 +368,7 @@
               </div>
             </div>
          
-            <div class="w-full px-4 lg:w-1/2 xl:w-1/4">
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/4" data-aos="zoom-in-right" data-aos-delay="1000">
               <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-800 dark:shadow-slate-600 dark:hover:bg-primary hover:bg-primary dark:hover:text-dark hover:text-white group group-hover:scale-95 transition-all duration-500">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-21 h-20 mt-5 mx-auto group-hover:scale-110 transition-all duration-400 dark:text-white dark:group-hover:text-dark" width="100"  viewBox="0 0 24 24"><path d="M18 7c0-1.103-.897-2-2-2H4c-1.103 0-2 .897-2 2v10c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-3.333L22 17V7l-4 3.333V7zm-1.998 10H4V7h12l.001 4.999L16 12l.001.001.001 4.999z"></path></svg>
                 <div class="py-8 px-6">
@@ -392,9 +392,9 @@
 
 <!-- Contact Section Start -->
 <section id="sloth" class="pt-36 pb-32 bg-slate-50 dark:bg-slate-600">
-    <div class="container">
+    <div class="container" >
       <div class="w-full px-4">
-        <div class="max-w-xl mx-auto mb-16 text-center">
+        <div class="max-w-xl mx-auto mb-16 text-center" data-aos="zoom-in-up">
             <h4 class="text-lg text-primary font-bold mb-2">Contact</h4>
             <h2 class="font-bold text-dark mb-4 text-3xl dark:text-white">Contact Me</h2>
             <p class="text-md text-para font-medium dark:text-zinc-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde inventore molestiae ducimus commodi dignissimos. Dolore?</p>
@@ -403,19 +403,19 @@
       <form>
         <div class="w-full lg:mx-auto lg:w-2/3">
           <div class="mb-8 w-full px-4">
-            <label for="name" class="text-base font-bold text-primary">Name</label>
-            <input type="text" id="name" class="w-full rounded-md bg-slate-200 p-3 border-none text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" />
+            <label for="name" class="text-base font-bold text-primary" data-aos-delay="250" data-aos="zoom-in-up" >Name</label>
+            <input type="text" id="name" class="w-full rounded-md bg-slate-200 p-3 border-none text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" data-aos-delay="250" data-aos="zoom-in-up" />
           </div>
           <div class="mb-8 w-full px-4">
-            <label for="email" class="text-base font-bold text-primary">Email</label>
-            <input type="email" id="email" class="w-full rounded-md bg-slate-200 p-3 border-none text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" />
+            <label for="email" class="text-base font-bold text-primary"  data-aos-delay="500" data-aos="zoom-in-up">Email</label>
+            <input type="email" id="email" class="w-full rounded-md bg-slate-200 p-3 border-none text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" data-aos-delay="500" data-aos="zoom-in-up"/>
           </div>
           <div class="mb-8 w-full px-4">
-            <label for="message" class="text-base font-bold text-primary">Message</label>
-            <textarea type="email" id="email" class="h-32 w-full rounded-md bg-slate-200 p-3 border-none text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"></textarea>
+            <label for="message" class="text-base font-bold text-primary"  data-aos-delay="750" data-aos="zoom-in-up">Message</label>
+            <textarea type="email" id="email" class="h-32 w-full rounded-md bg-slate-200 p-3 border-none text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" data-aos-delay="750" data-aos="zoom-in-up"></textarea>
           </div>
           <div class="w-full px-4">
-            <button class="w-full rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-500 hover:opacity-70 hover:shadow-lg">Send</button>
+            <button class="w-full rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-500 hover:opacity-70 hover:shadow-lg" data-aos-delay="1000" data-aos="zoom-in-up">Send</button>
           </div>
         </div>
       </form>
