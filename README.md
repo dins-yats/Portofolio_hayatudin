@@ -1,4 +1,4 @@
-<p align="center"><a href="#" target="_blank"><img src="img/porto.jpg" width="400"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="https://github.com/dins-yats/Portofolio_hayatudin/blob/main/public/img/porto.jpg" width="400"></a></p>
 
 ## About The Project
 
