@@ -6,8 +6,6 @@ Merupakan Project yang bertujuan Untuk menampilkan portofolio saya, project ini 
 
 ## Apa Yang Dipakai Di Project Ini
 
-## Laravel Sponsors
-
 project ini menggunakan Framework laravel, Tailwind css, dark mode, typed js, swiper js, laravel jetstream
 
 ## Contributing
