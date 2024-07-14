@@ -1,14 +1,12 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<p align="center"><a href="#" target="_blank"><img src="img/porto.jpg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="img/porto.jpg" width="400"></a></p>
 
-</p>
-
-## About The project
+## About The Project
 
 Merupakan Project yang bertujuan Untuk menampilkan portofolio saya, project ini masih dalam proses yang mana baru terbentuk front-end nya saja
 
-## apa yang dipakai diproject ini
+## Apa Yang Dipakai Di Project Ini
+
+## Laravel Sponsors
 
 project ini menggunakan Framework laravel, Tailwind css, dark mode, typed js, swiper js, laravel jetstream
 
@@ -19,9 +17,3 @@ Project ini saya buat dengan menonton Tutorial tailwind css dari bapak shandika 
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
-..
->>>>>>> 4c54833d706ee0fbc59e72a6d36ae1e3dc3dbdb3
-=======
-..
->>>>>>> 4c54833d706ee0fbc59e72a6d36ae1e3dc3dbdb3
